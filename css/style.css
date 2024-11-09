@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    text-align: center;
+    
+    background-image:linear-gradient(rgb(84, 5, 61), rgb(179, 207, 226)) ;
+}
+.music-container
+{
+    text-align: center;
+    align-items: center;
+}
+.cover
+{
+    align-items: center;
+    background-image:linear-gradient(rgb(84, 5, 61), rgb(179, 207, 226));
+}
+.card
+{
+    height: 290px;
+    overflow: hidden;
+    width: 290px;
+    text-align: center;
+    margin: 0 auto;
+}
+.music-info
+{
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    margin: 10px auto;
+    color: rgb(110, 6, 72);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(232, 192, 208, 0.774);
+
+}
+.controls
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.action-btn
+{
+    
+    border-radius:75px;
+    border-color: #08000a00;
+    color: #650a7e;
+    background-color: rgba(237, 214, 231, 0.422);
+    font-size : 20px;
+    cursor: pointer;
+    padding:10px;
+    margin: 0 20px;
+}
+.action-btn-big
+{
+    color: #650a7e;
+    font-size: 20px;
+}
+ .action-btn:focus
+ {
+    outline:0;
+ }
+ .action-btn:hover{
+    background-color: rgba(245, 242, 244, 0.964);
+
+ }
+ 
